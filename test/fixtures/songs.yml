@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  artist_id: 1
+  tags: MyString
+  category_id: 1
+  forum_link: MyString
+
+two:
+  title: MyString
+  artist_id: 1
+  tags: MyString
+  category_id: 1
+  forum_link: MyString

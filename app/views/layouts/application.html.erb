@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mobius</title>
+  <title>Mobius Dan</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -10,12 +10,12 @@
 <div id="wrapper">
   <nav>
     <ul>
-      <li>Home</li>
-      <li>Articles</li>
-      <li>Arts</li>
-      <li>Music</li>
-      <li>Video</li>
-      <li>Contributors</li>
+      <li><%= link_to "Home", root_url, remote: true %></li>
+      <li><%= link_to "Articles" %></li>
+      <li><%= link_to "Arts" %></li>
+      <li><%= link_to "Music" %></li>
+      <li><%= link_to "Video" %></li>
+      <li><%= link_to "Contributors" %></li>
     </ul>
   </nav>
   <img src="http://mobiusdan.com/wp-content/uploads/2010/09/logo1.jpg" alt="MobiusDan" id="topLogo">
